@@ -43,15 +43,9 @@ ts-node
 .idea
 
 /tools/**/*.js
-dist
-dev
-docs
-lib
-test
 tmp
+.tmp
 
-gulpfile.js
-gulpfile.js.map
 
 # OS X trash files
 .DS_Store
