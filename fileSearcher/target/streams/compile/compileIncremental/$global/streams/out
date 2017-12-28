@@ -1,0 +1,83 @@
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/src/main/scala/FileObject.scala, /Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/src/main/scala/FilterChecker.scala, /Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/src/main/scala/IOObject.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/src/main/scala/fileSearcher/IOObject.scala, /Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/src/main/scala/fileSearcher/FilterChecker.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(fileSearcher.FileObject, fileSearcher.FilterChecker, IOObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 2 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 436c7aa1 for Scala compiler version 2.12.4[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes:/Users/siddharthsudheer/.sbt/boot/scala-2.12.4/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/Users/siddharthsudheer/repos/my-stuff/scala_practice/fileSearcher/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.841695322 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from fileSearcher.FilterChecker...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(fileSearcher.FilterChecker)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(fileSearcher.FilterChecker)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(fileSearcher.FilterChecker,ModifiedNames(changes = UsedName(findMatchedFiles,[Default]))) invalidates 1 classes due to The fileSearcher.FilterChecker has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(findMatchedFiles,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(fileSearcher.FilterChecker)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from fileSearcher.IOObject...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(fileSearcher.IOObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding fileSearcher.FileObject by fileSearcher.IOObject[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding fileSearcher.DirectoryObject by fileSearcher.IOObject[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(fileSearcher.IOObject, fileSearcher.FileObject, fileSearcher.DirectoryObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of fileSearcher.FilterChecker: Set(UsedName(IOObject,[Default]), UsedName(isInstanceOf,[Default]), UsedName(name,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of fileSearcher.FilterChecker: Set(UsedName(IOObject,[Default]), UsedName(isInstanceOf,[Default]), UsedName(name,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(fileSearcher.IOObject,ModifiedNames(changes = UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(IOObject,[Default]), UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(hashCode,[Default]), UsedName(name,[Default]), UsedName($asInstanceOf,[Default]))) invalidates 4 classes due to The fileSearcher.IOObject has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(IOObject,[Default]), UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(hashCode,[Default]), UsedName(name,[Default]), UsedName($asInstanceOf,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(fileSearcher.IOObject, fileSearcher.FileObject, fileSearcher.DirectoryObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(fileSearcher.FilterChecker)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from IOObject...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(IOObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(IOObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(IOObject,ModifiedNames(changes = UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(IOObject;init;,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(IOObject,[Default]), UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(hashCode,[Default]), UsedName($asInstanceOf,[Default]))) invalidates 1 classes due to The IOObject has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(IOObject;init;,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(toString,[Default]), UsedName(IOObject,[Default]), UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(hashCode,[Default]), UsedName($asInstanceOf,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(IOObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from fileSearcher.FileObject...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(fileSearcher.FileObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(fileSearcher.FileObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of fileSearcher.FilterChecker: Set(UsedName(FileObject,[Default]))[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(fileSearcher.FileObject,ModifiedNames(changes = UsedName(FileObject,[Default]))) invalidates 2 classes due to The fileSearcher.FileObject has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(FileObject,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(fileSearcher.FileObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(fileSearcher.FilterChecker)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from fileSearcher.DirectoryObject...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(fileSearcher.DirectoryObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(fileSearcher.DirectoryObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(fileSearcher.DirectoryObject,ModifiedNames(changes = UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(fileSearcher;DirectoryObject;init;,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(DirectoryObject,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(hashCode,[Default]), UsedName(name,[Default]), UsedName($asInstanceOf,[Default]))) invalidates 1 classes due to The fileSearcher.DirectoryObject has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(==,[Default]), UsedName(eq,[Default]), UsedName(wait,[Default]), UsedName(asInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(finalize,[Default]), UsedName(clone,[Default]), UsedName(fileSearcher;DirectoryObject;init;,[Default]), UsedName($isInstanceOf,[Default]), UsedName(notifyAll,[Default]), UsedName(ne,[Default]), UsedName(DirectoryObject,[Default]), UsedName(toString,[Default]), UsedName(##,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(equals,[Default]), UsedName(getClass,[Default]), UsedName(hashCode,[Default]), UsedName(name,[Default]), UsedName($asInstanceOf,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(fileSearcher.DirectoryObject)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
